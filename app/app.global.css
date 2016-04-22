@@ -35,3 +35,80 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+
+.person button {
+  background:transparent;
+  border:0px;
+  margin:0px;
+  padding:0px;
+}
+
+
+.person {
+  border-radius: 25px;
+  background: yellow;
+  padding: 7px;
+  margin-top:7px;
+  margin-bottom:7px;
+  margin-left:13px;
+  margin-right:13px;
+  display:inline-block;
+}
+
+.person.selected {
+  background: lightyellow;
+}
+
+
+.room {
+  border-radius: 25px;
+  background: gray;
+  padding: 5px;
+  margin:7px;
+  display:inline-block;
+}
+
+.room button {
+  background:transparent;
+  border:0px;
+  margin:0px;
+  padding:0px;
+}
+
+.room.view {
+  background:#ffff33;
+}
+.room.joined {
+  background:#999900;
+}
+
+.numPeople {
+  background-color: aqua;
+  padding: 2px;
+  border-radius: 25px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+button.vol-control {
+  border-radius: 25px;
+  background-color: green;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display:inline-block;
+  margin:2px;
+}
+
+.pb-container {
+  display:inline-block;
+  width:50px;
+  height:15px;
+}
+
+.pb-progress {
+  background-color: black;
+  height:15px;
+}

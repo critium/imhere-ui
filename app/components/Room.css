@@ -1,29 +1,29 @@
-.room {
-  border-radius: 25px;
-  background: gray;
-  padding: 5px;
-  margin:7px;
-  display:inline-block;
-}
+/*.room {*/
+  /*border-radius: 25px;*/
+  /*background: gray;*/
+  /*padding: 5px;*/
+  /*margin:7px;*/
+  /*display:inline-block;*/
+/*}*/
 
-.room button {
-  background:transparent;
-  border:0px;
-  margin:0px;
-  padding:0px;
-}
+/*.room button {*/
+  /*background:transparent;*/
+  /*border:0px;*/
+  /*margin:0px;*/
+  /*padding:0px;*/
+/*}*/
 
-.room.view {
-  background:#ffff33;
-}
-.room.joined {
-  background:#999900;
-}
+/*.room.view {*/
+  /*background:#ffff33;*/
+/*}*/
+/*.room.joined {*/
+  /*background:#999900;*/
+/*}*/
 
-.numPeople {
-  background-color: aqua;
-  padding: 2px;
-  border-radius: 25px;
-  font-size: 12px;
-  margin-left: 5px;
-}
+/*.numPeople {*/
+  /*background-color: aqua;*/
+  /*padding: 2px;*/
+  /*border-radius: 25px;*/
+  /*font-size: 12px;*/
+  /*margin-left: 5px;*/
+/*}*/

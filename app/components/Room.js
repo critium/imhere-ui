@@ -4,7 +4,6 @@ import styles from './Room.css';
 
 class Room extends Component {
   handleClick = () => {
-    console.log("Room Clicked")
     this.props.onRoomClicked(this.props.id);
   }
 
@@ -12,7 +11,7 @@ class Room extends Component {
     return (
       <span className={this.props.roomClass}>
         <button onClick={this.handleClick}>{this.props.name}</button>
-        <span className={styles.numPeople}>{this.props.numPeopleHere}</span>
+        <span className="numPeople">{this.props.numPeopleHere}</span>
       </span>
     );
   }
