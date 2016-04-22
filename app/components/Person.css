@@ -1,0 +1,18 @@
+.person button {
+  background:transparent;
+  border:0px;
+  margin:0px;
+  padding:0px;
+}
+
+
+.person {
+  border-radius: 25px;
+  background: yellow;
+  padding: 7px;
+  margin-top:7px;
+  margin-bottom:7px;
+  margin-left:13px;
+  margin-right:13px;
+  display:inline-block;
+}
